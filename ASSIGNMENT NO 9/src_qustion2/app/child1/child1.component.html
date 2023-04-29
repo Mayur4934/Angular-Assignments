@@ -1,0 +1,18 @@
+
+<h1>INSIDE CHILD1 COMPONENT</h1>
+
+
+<h1 *ngIf="flag ; else elseBlock">
+
+    number is prime
+
+</h1>
+
+<ng-template #elseBlock>
+
+    <h1>
+        number is not prime
+    </h1>
+
+
+</ng-template>

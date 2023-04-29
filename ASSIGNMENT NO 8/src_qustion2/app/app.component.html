@@ -1,0 +1,6 @@
+<h1>INSIDE PARENT COMPONENT</h1>
+
+<app-child [MessageFromParent]="Message"  (Myevent)="Messagefromchild = $event" ></app-child>
+
+
+<h1>message from child {{Messagefromchild}}</h1>

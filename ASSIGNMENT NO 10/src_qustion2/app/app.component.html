@@ -1,0 +1,16 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <li ngbNavItem>
+    <button ngbNavLink routerLink="/technologies">TECHNOLOGIES</button>
+    
+    
+  </li>
+  <li ngbNavItem>
+  
+    <button ngbNavLink  routerLink ="/books">BOOKS</button>
+
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav"></div>
+
+
+<router-outlet></router-outlet>
